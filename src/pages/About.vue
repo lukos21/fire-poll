@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-3xl mx-auto px-4 py-10 space-y-6">
-    <h1 class="text-2xl font-bold">About Quick Polls</h1>
+    <h1 class="text-2xl font-bold">About Fire Poll</h1>
     <p>
-      Quick Polls lets you create lightweight polls and share them instantly. No accounts are required —
+      Fire Poll lets you create lightweight polls and share them instantly. No accounts are required —
       voting is one per browser, enforced by anonymous authentication.
     </p>
     <p>
@@ -15,9 +15,7 @@
 </template>
 
 <script setup>
-  import FeatureCard from '@/components/FeatureCard.vue'
   import PollPreviewChart from '@/components/PollPreviewChart.vue'
-  import { ArrowRightIcon, SparklesIcon, BoltIcon, ChartBarIcon, ShieldCheckIcon } from '@heroicons/vue/24/outline'
   import { ref } from 'vue'
 
   const demo = ref([12, 5, 8, 2])
